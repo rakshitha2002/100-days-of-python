@@ -1,0 +1,43 @@
+name: CICD
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    # Setup Python 3.9....
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    # Telegram sender....
+    - name: Telegram sender
+      if: ${{ github.event_name == 'push' }} 
+      uses: appleboy/telegram-action@master
+      with:
+        to:  ${{ secrets.TELEGRAM_TO }}  
+        token: ${{ secrets.TELEGRAM_TOKEN }}  
+        message: |
+          Project:
+            ${{ github.event.repository.name }}
+          WorkFlow: 
+            ${{ github.workflow }}
+          ------------------------------------------
+          Push commit messages:
+             ${{ join(github.event.commits.*.message, ', ') }}
+          ------------------------------------------
+          By : ${{ github.actor }}
+          Please find the new API here.
+          ------------------------------------------
+          🔥🔥🔥🔥
+          👇🏾👇🏾👇🏾
+          👇🏾👇🏾
+          👇🏾          
+          https://batta-unforge.herokuapp.com/api/documentation#/ 
