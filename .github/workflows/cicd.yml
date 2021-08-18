@@ -17,9 +17,9 @@ jobs:
       with:
         python-version: 3.9
 
-    # Telegram sender....
+    # Telegram sender by Rakshitha....
     - name: Telegram sender
-      if: ${{ github.event_name == 'push' }} 
+      if: ${{ github.actor == 'rakshitha2002' }} 
       uses: appleboy/telegram-action@master
       with:
         to:  ${{ secrets.TELEGRAM_TO }}  
@@ -27,17 +27,28 @@ jobs:
         message: |
           Project:
             ${{ github.event.repository.name }}
-          WorkFlow: 
-            ${{ github.workflow }}
           ------------------------------------------
           Push commit messages:
              ${{ join(github.event.commits.*.message, ', ') }}
           ------------------------------------------
           By : ${{ github.actor }}
-          Please find the new API here.
           ------------------------------------------
-          🔥🔥🔥🔥
-          👇🏾👇🏾👇🏾
-          👇🏾👇🏾
-          👇🏾          
-          https://batta-unforge.herokuapp.com/api/documentation#/ 
+          Repo link : https://github.com/rakshitha2002/100-days-of-python
+
+    # Telegram sender by Sanjay....
+    - name: Telegram sender
+      if: ${{ github.actor == 'sanjaysanju618' }} 
+      uses: appleboy/telegram-action@master
+      with:
+        to:  ${{ secrets.TELEGRAM_TO }}  
+        token: ${{ secrets.TELEGRAM_TOKEN }}  
+        message: |
+          Project:
+            ${{ github.event.repository.name }}
+          ------------------------------------------
+          Push commit messages:
+             ${{ join(github.event.commits.*.message, ', ') }}
+          ------------------------------------------
+          By : ${{ github.actor }}
+          ------------------------------------------
+          Task link : https://github.com/rakshitha2002/100-days-of-python
