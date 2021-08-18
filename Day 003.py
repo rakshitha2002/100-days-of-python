@@ -1,0 +1,5 @@
+no1 = float(input("Enter the number 1: "))
+no2 = float(input("Enter the number 2: "))
+print(no1,"*",no2,"=",no1*no2)
+print(no1,"/",no2,"=",no1/no2)
+print(no1,"//",no2,"=",no1//no2)
