@@ -51,4 +51,4 @@ jobs:
           ------------------------------------------
           By : ${{ github.actor }}
           ------------------------------------------
-          Task link : https://github.com/rakshitha2002/100-days-of-python
+          Task link : https://github.com/rakshitha2002/100-days-of-python/blob/main/task.md
