@@ -1,29 +1,39 @@
-# Day3 - Multiplication and Division
-
-> Get 2 numbers as the input and find the Multiplication and Division of the number 1 and number 2
-
+# Day4 - Swapping of 2 numbers
+- Get 2 numbers as the input 
+- print input
+- Swap those 2 number 
+- print swaped value
+---
 ## TestCase 1:-
-### input:
+---
+### Input:
 ```
-Enter the number 1: 2
-Enter the number 2: 1
+Enter the number 1: 98
+Enter the number 2: 43
 ```
-### output:
+### Output:
 ```
-2.0 * 1.0 = 2.0
-2.0 / 1.0 = 2.0
-2.0 // 1.0 = 2.0
+Before Swap : 
+Number 1 = 98
+Number 2 = 43
+After Swap : 
+Number 1 = 43
+Number 2 = 98
 ```
 
 ## TestCase 2:-
-### input:
+---
+### Input:
 ```
-Enter the number 1: 63.1
-Enter the number 2: 4
+Enter the number 1: 100
+Enter the number 2: 500
 ```
-### output:
+### Output:
 ```
-63.1 * 4.0 = 252.4
-63.1 / 4.0 = 15.775
-63.1 // 4.0 = 15.0
+Before Swap : 
+Number 1 = 100
+Number 2 = 500
+After Swap : 
+Number 1 = 500
+Number 2 = 100
 ```
