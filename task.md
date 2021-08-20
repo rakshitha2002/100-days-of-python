@@ -1,39 +1,34 @@
-# Day4 - Swapping of 2 numbers
-- Get 2 numbers as the input 
-- print input
-- Swap those 2 number 
-- print swaped value
+# Day5 - Area of Triangle
+
+- Get length of triangle's 3 sides as input.  
+- Find Area of triangle with **Heron's** 3 side formula. 
+- Print the output.
+> Note :- Don't use any imported functions.
+
+![Formula](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/area-of-triangle-with-3-sides-01-1627893596.png)
 ---
 ## TestCase 1:-
 ---
 ### Input:
 ```
-Enter the number 1: 98
-Enter the number 2: 43
+Enter side a length : 5
+Enter side b length : 4
+Enter side c length : 3
 ```
 ### Output:
 ```
-Before Swap : 
-Number 1 = 98
-Number 2 = 43
-After Swap : 
-Number 1 = 43
-Number 2 = 98
+Area of Triangle : 6.0
 ```
 
 ## TestCase 2:-
 ---
 ### Input:
 ```
-Enter the number 1: 100
-Enter the number 2: 500
+Enter side a length : 54
+Enter side b length : 63
+Enter side c length : 12
 ```
 ### Output:
 ```
-Before Swap : 
-Number 1 = 100
-Number 2 = 500
-After Swap : 
-Number 1 = 500
-Number 2 = 100
+Area of Triangle : 230.94033320318908
 ```
