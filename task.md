@@ -1,28 +1,28 @@
-# Day6 - Leap year Check
+# Day7 - Surface Area and Volume of a Cube
 
-- Get year as the input
-- check weather given input is leap year or not.
-- Print proper response as per the sample test cases.
+- Get side as the input
+- Find surface area and volume of the cube.
+- Print proper response as per the sample test cases. (using f-string)
 
 ---
 ## TestCase 1:-
 ---
 ### Input:
 ```
-Enter the year data to check : 2020
+Enter the length of a side : 7
 ```
 ### Output:
 ```
-Yeah 2020 is leap year.
+Surface area = 294.0 and Volume = 343.0
 ```
 
 ## TestCase 2:-
 ---
 ### Input:
 ```
-Enter the year data to check : 2021
+Enter the length of a side : 5.6
 ```
 ### Output:
 ```
-Oops 2021 is not a leap year.
+Surface area = 188.15999999999997 and Volume = 175.61599999999996
 ```
