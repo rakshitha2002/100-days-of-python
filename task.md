@@ -1,43 +1,44 @@
-# Day9 - Sum and Avg
+# Day10 - Amicable Pair Check
+```
+let's consider 2 numbers A & B, first you need to generate the proper divisors of A, then sum it, then generate the proper divisors of B, then sum it, if A's sum of proper divisors equals to B and B's sum of proper divisors equals to A means we can call the pair of numbers as Amicable Pair. 
 
-- Get a N (number) as the input 
-- Get a L (list of number) to the length of N
-- Find sum and average of the L
-- Print proper response as per the sample test cases.
+Eg: A=220 and B=284
+They are amicable pair because 
 
+the proper divisors of 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 and 110, of which the sum is 284;
+
+the proper divisors of 284 are 1, 2, 4, 71 and 142, of which the sum is 220.
+```
 ---
 ## TestCase 1:-
 ---
 ### Input:
 ```
-Enter a positive integer: 5
-Enter Input 1 number: 5
-Enter Input 2 number: 4
-Enter Input 3 number: 3
-Enter Input 4 number: 2
-Enter Input 5 number: 1
+Enter two numbers : 220 284
 ```
 ### Output:
 ```
-The sum of 5 no is : 15
-The average of 5 no is : 3.0
+220 & 284 are Amicable numbers
 ```
 
 ## TestCase 2:-
 ---
 ### Input:
 ```
-Enter a positive integer: 7
-Enter Input 1 number: 54
-Enter Input 2 number: 85
-Enter Input 3 number: 62
-Enter Input 4 number: 75
-Enter Input 5 number: 89
-Enter Input 6 number: 12
-Enter Input 7 number: 35
+Enter two numbers : 100 200
 ```
 ### Output:
 ```
-The sum of 7 no is : 412
-The average of 7 no is : 58.86
+100 & 200 are not Amicable numbers
+```
+
+## TestCase 3:-
+---
+### Input:
+```
+Enter two numbers : 1184 1210
+```
+### Output:
+```
+1184 & 1210 are Amicable numbers
 ```
