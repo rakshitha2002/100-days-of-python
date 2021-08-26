@@ -1,44 +1,40 @@
-# Day10 - Amicable Pair Check
-```
-let's consider 2 numbers A & B, first you need to generate the proper divisors of A, then sum it, then generate the proper divisors of B, then sum it, if A's sum of proper divisors equals to B and B's sum of proper divisors equals to A means we can call the pair of numbers as Amicable Pair. 
+# Day11 - Finding ASCII value of a character
 
-Eg: A=220 and B=284
-They are amicable pair because 
-
-the proper divisors of 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 and 110, of which the sum is 284;
-
-the proper divisors of 284 are 1, 2, 4, 71 and 142, of which the sum is 220.
-```
+- Complete the function on the Day_011.py
+- Get charater as the parameter
+- Find the equvalent ASSCII for the same
+- return final result 
+> Note : To perform test cases please run ``` python test.py ``` or directly open test.py and run. 
 ---
 ## TestCase 1:-
 ---
 ### Input:
 ```
-Enter two numbers : 220 284
+a
 ```
 ### Output:
 ```
-220 & 284 are Amicable numbers
+97
 ```
 
 ## TestCase 2:-
 ---
 ### Input:
 ```
-Enter two numbers : 100 200
+A
 ```
 ### Output:
 ```
-100 & 200 are not Amicable numbers
+65
 ```
 
 ## TestCase 3:-
 ---
 ### Input:
 ```
-Enter two numbers : 1184 1210
+,
 ```
 ### Output:
 ```
-1184 & 1210 are Amicable numbers
+44
 ```
