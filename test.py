@@ -1,27 +1,27 @@
 import unittest
 
-from Day_011 import getASCII
+from Day_012 import isVowel
 
 class TestTask011(unittest.TestCase):
-    def test_a_when_assci_when_97(self):
-        self.assertEqual(getASCII('a'), 97)
+    def test_a_when_isVowel_then_True(self):
+        self.assertEqual(isVowel('a'), True)
     
-    def test_A_when_assci_when_65(self):
-        self.assertEqual(getASCII('A'), 65)
+    def test_A_when_isVowel_then_True(self):
+        self.assertEqual(isVowel('A'), True)
 
-    def test_comma_when_assci_when_44(self):
-        self.assertEqual(getASCII(','), 44)
+    def test_b_when_isVowel_then_False(self):
+        self.assertEqual(isVowel("b"), False)
 
-    def test_dot_when_assci_when_46(self):
-        self.assertEqual(getASCII('.'), 46)
+    def test_B_when_isVowel_then_False(self):
+        self.assertEqual(isVowel("B"), False)
     
-    def test_slash_when_assci_when_47(self):
-        self.assertEqual(getASCII('/'), 47)
+    def test_Z_when_isVowel_then_False(self):
+        self.assertEqual(isVowel("Z"), False)
 
-    def test_zero_when_assci_when_48(self):
-        self.assertEqual(getASCII('0'), 48)
+    def test_i_when_isVowel_then_True(self):
+        self.assertEqual(isVowel("i"), True)
     
-    def test_space_when_assci_when_32(self):
-        self.assertEqual(getASCII(' '), 32)
+    def test_I_when_isVowel_then_True(self):
+        self.assertEqual(isVowel("I"), True)
 if __name__ == '__main__':
     unittest.main()

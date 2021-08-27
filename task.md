@@ -1,40 +1,30 @@
-# Day11 - Finding ASCII value of a character
+# Day12 - Vowel and Consonant Check
 
-- Complete the function on the Day_011.py
+- Complete the function on the Day_012.py
 - Get charater as the parameter
-- Find the equvalent ASSCII for the same
-- return final result 
+- Check weather given letter is vowel or consonant?
+- return True if vowel else False
+
 > Note : To perform test cases please run ``` python test.py ``` or directly open test.py and run. 
 ---
 ## TestCase 1:-
 ---
 ### Input:
 ```
-a
+Enter letter : a
 ```
 ### Output:
 ```
-97
+True
 ```
 
 ## TestCase 2:-
 ---
 ### Input:
 ```
-A
+Enter letter : c
 ```
 ### Output:
 ```
-65
-```
-
-## TestCase 3:-
----
-### Input:
-```
-,
-```
-### Output:
-```
-44
+False
 ```
