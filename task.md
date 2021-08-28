@@ -1,9 +1,9 @@
-# Day12 - Vowel and Consonant Check
+# Day13 - Fibonacci Numbers
 
-- Complete the function on the Day_012.py
-- Get charater as the parameter
-- Check weather given letter is vowel or consonant?
-- return True if vowel else False
+- Complete the ``` fibonacciNumberGenerator() ``` function on the Day_013.py.
+- Get N as the parameter.
+- Generate N fibonacci number series.
+- return final series as list
 
 > Note : To perform test cases please run ``` python test.py ``` or directly open test.py and run. 
 ---
@@ -11,20 +11,31 @@
 ---
 ### Input:
 ```
-Enter letter : a
+Enter limit : 5 
 ```
 ### Output:
 ```
-True
+[0, 1, 1, 2, 3]
 ```
 
 ## TestCase 2:-
 ---
 ### Input:
 ```
-Enter letter : c
+Enter limit : 9
 ```
 ### Output:
 ```
-False
+[0, 1, 1, 2, 3, 5, 8, 13, 21]
+```
+
+## TestCase 3:-
+---
+### Input:
+```
+Enter limit : 1
+```
+### Output:
+```
+[0]
 ```
