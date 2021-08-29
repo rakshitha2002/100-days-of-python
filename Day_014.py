@@ -5,7 +5,7 @@ def isFibonacciNumber(number):
     """ Check given number is fibonacci """
 
 def isprimeFibonacciNumber(N):
-    """ Generate prime fibonacci numbers """
+    """ Check given N is prime and fibonacci number """
 
 
 
