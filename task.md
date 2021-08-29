@@ -1,9 +1,9 @@
-# Day13 - Fibonacci Numbers
+# Day14 - Prime Fibonacci Number
 
-- Complete the ``` fibonacciNumberGenerator() ``` function on the Day_013.py.
+- Complete the functions on the Day_014.py.
 - Get N as the parameter.
-- Generate N fibonacci number series.
-- return final series as list
+- Check whether it is prime and fibonacci number?
+- return True if condition pass else False (Please follow sample test cases)
 
 > Note : To perform test cases please run ``` python test.py ``` or directly open test.py and run. 
 ---
@@ -11,31 +11,31 @@
 ---
 ### Input:
 ```
-Enter limit : 5 
+Enter number : 5 
 ```
 ### Output:
 ```
-[0, 1, 1, 2, 3]
+(True, 'isPrimeNumber : True & isFibonacciNumber : True')
 ```
 
 ## TestCase 2:-
 ---
 ### Input:
 ```
-Enter limit : 9
+Enter number : 4
 ```
 ### Output:
 ```
-[0, 1, 1, 2, 3, 5, 8, 13, 21]
+(False, 'isPrimeNumber : False & isFibonacciNumber : False')
 ```
 
 ## TestCase 3:-
 ---
 ### Input:
 ```
-Enter limit : 1
+Enter number : 55
 ```
 ### Output:
 ```
-[0]
+(False, 'isPrimeNumber : False & isFibonacciNumber : True')
 ```
