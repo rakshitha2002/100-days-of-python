@@ -1,4 +1,4 @@
-# Day18 - Output Generation-IV
+# Day19 - Output Generation-V
 
 - Generate python script to generate following output
 
@@ -7,28 +7,36 @@
 ---
 ### Input:
 ```
-Enter odd number : 3
+Enter odd number : 5
 ```
 ### Output:
 ```
-# # #
-# 0 #
-# # #
+ *  -  -  -  -  -  -  -  -  * 
+ *  *  -  -  -  -  -  -  *  *
+ *  *  *  -  -  -  -  *  *  *
+ *  *  *  *  -  -  *  *  *  *
+ *  *  *  *  *  *  *  *  *  *
+ *  *  *  *  *  *  *  *  *  *
+ *  *  *  *  -  -  *  *  *  *
+ *  *  *  -  -  -  -  *  *  *
+ *  *  -  -  -  -  -  -  *  *
+ *  -  -  -  -  -  -  -  -  *
 ```
 ---
 ## TestCase 2:-
 ---
 ### Input:
 ```
-Enter odd number : 7
+Enter number : 4
 ```
 ### Output:
 ```
-# # # # # # # 
-# # # # # # # 
-# # # # # # #
-# # # 0 # # #
-# # # # # # #
-# # # # # # #
-# # # # # # #
+ *  -  -  -  -  -  -  * 
+ *  *  -  -  -  -  *  *
+ *  *  *  -  -  *  *  *
+ *  *  *  *  *  *  *  *
+ *  *  *  *  *  *  *  *
+ *  *  *  -  -  *  *  *
+ *  *  -  -  -  -  *  *
+ *  -  -  -  -  -  -  *
 ```
