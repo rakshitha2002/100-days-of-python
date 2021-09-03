@@ -7,7 +7,7 @@
 ---
 ### Input:
 ```
-Enter odd number : 5
+Enter number : 5
 ```
 ### Output:
 ```
