@@ -1,101 +1,52 @@
-# Day23 - Menu driven list operation
+# Day24 - Lambda, Map, Filter and Reduce
 
-- Create a menu with Insert, Delete, Display, Exit as the options.  
-    1. Insert
-        > Please give insert elements on single line.
-    2. Delete
-        > Display the elements with the index and ask user input for index to delete element.
-    3. Display
-        > Display entire list elements with index in the console
-    4. Exit
-        > Display list one last time & exit from the menu.
-        
+- Get elements of the list. 
+- Perform square for all the elements using ```map()``` function and print the same.
+- Filter only odd number from the squared list using ```filter()``` function and print the same.
+- Find product of all element of odd list using ```reduce()``` function and print the same.
+
 ---
 ## TestCase 1:-
 ---
+### Input:
+```
+Enter number of elements in list : 3
+Enter list elements : 3 2 1 
+```
+### Output:
+```
+Given list : [3, 2, 1]
+Result after map() -> [9, 4, 1]
+Result after filter() -> [9, 1]
+Result after reduce() -> 9
 ```
 
-What do you want to do
-1. Insert
-2. Delete
-3. Display
-4. Exit
-1
-Enter new list elements : 58 56 52 54
-
-What do you want to do
-1. Insert
-2. Delete
-3. Display
-4. Exit
-1
-Enter new list elements : 55
-
-What do you want to do
-1. Insert
-2. Delete
-3. Display
-4. Exit
-3
-List elements are : 
-58(0) 56(1) 52(2) 54(3) 55(4)
-
-What do you want to do
-1. Insert
-2. Delete
-3. Display
-4. Exit
-2
-List elements are :
-58(0) 56(1) 52(2) 54(3) 55(4)
-Enter element index to delete : 2
-
-What do you want to do
-1. Insert
-2. Delete
-3. Display
-4. Exit
-4
-List elements are :
-58(0) 56(1) 54(2) 55(3)
-Bye see you soon !
-```
----
 ## TestCase 2:-
-```
-
-What do you want to do
-1. Insert
-2. Delete
-3. Display
-4. Exit
-2
-Please insert elements to perform delete operation
-
-What do you want to do
-1. Insert
-2. Delete
-3. Display
-4. Exit
-3
-Nothing to display list is empty!
-
-What do you want to do
-1. Insert
-2. Delete
-3. Display
-4. Exit
-1
-Enter new list elements : 50
-
-What do you want to do
-1. Insert
-2. Delete
-3. Display
-4. Exit
-4
-List elements are : 
-50(0) 
-Bye see you soon !
-```
 ---
+### Input:
+```
+Enter number of elements in list : 5
+Enter list elements : 9 79 63 52 51
+```
+### Output:
+```
+Given list : [9, 79, 63, 52, 51]
+Result after map() -> [81, 6241, 3969, 2704, 2601]
+Result after filter() -> [81, 6241, 3969, 2601]
+Result after reduce() -> 5218679820249
+```
+
+## TestCase 3:-
+---
+### Input:
+```
+Enter number of elements in list : 5
+Enter list elements : 58 56 52 54 55
+```
+### Output:
+```
+Given list : [58, 56, 52, 54, 55]
+Result after map() -> [3364, 3136, 2704, 2916, 3025]
+Result after filter() -> [3025]
+Result after reduce() -> 3025
+```
