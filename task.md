@@ -2,13 +2,13 @@
 
 - Create a menu with Insert, Delete, Display, Exit as the options.  
     1. Insert
-        > Please get size of the list to be inserted and follow by insert elements on single line.
+        > Please give insert elements on single line.
     2. Delete
-        > Display the element with the index and ask user input for index to delete element on that index.
+        > Display the elements with the index and ask user input for index to delete element.
     3. Display
-        > Display entire list in the console
+        > Display entire list elements with index in the console
     4. Exit
-        > Display last list & exit from the menu.
+        > Display list one last time & exit from the menu.
         
 ---
 ## TestCase 1:-
