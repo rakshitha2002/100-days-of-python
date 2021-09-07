@@ -1,13 +1,12 @@
 l = []
+loop = True
 def Insert():
     li = input("Enter new list elements : ").split()
     for i in li:
        l.append(i)
 def Delete():
     if len(l) > 0 :
-        print("List elements are : ")
-        for i in l:
-          print(f"{i}({l.index(i)})",end = " ") 
+        Display()
         delete = int(input("\nEnter element index to delete : "))
         l.pop(delete)
     else:
@@ -20,12 +19,12 @@ def Display():
     else:
         print("Nothing to display list is empty!")
 def Exit():
-    print("List elements are : ")
-    for i in l:
-        print(f"{i}({l.index(i)})",end = " ")
-    print("\nBye see you soon !")
+    Display()
+    print("Bye see you soon !")
+    global loop
+    loop = False
 
-while True:
+while loop:
     print("\nWhat do you want to do \n1. Insert \n2. Delete \n3. Display \n4. Exit ")
     choice = int(input())
     if choice == 1:
@@ -36,5 +35,5 @@ while True:
         Display()
     elif choice == 4:
         Exit()
-        break
+        
    
