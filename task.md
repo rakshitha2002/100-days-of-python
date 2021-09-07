@@ -1,59 +1,101 @@
-# Day22 - Search, Sort, Count in the given list
+# Day23 - Menu driven list operation
 
-- Get ```N``` as the total number of list elements.
-- Get ```N``` number of list elements as per the test cases.
-- Print input list elements.
-- Get search element as input and find the index of the first occurrence of the same and print it as per the test cases.
-- Print the ```sorted``` list elements.
-- Find the count of unique elements in the list.
-- Print those counts in sorted order of unique elements.
-
+- Create a menu with Insert, Delete, Display, Exit as the options.  
+    1. Insert
+        > Please get size of the list to be inserted and follow by insert elements on single line.
+    2. Delete
+        > Display the element with the index and ask user input for index to delete element on that index.
+    3. Display
+        > Display entire list in the console
+    4. Exit
+        > Display last list & exit from the menu.
+        
 ---
 ## TestCase 1:-
 ---
 ```
-Enter number of elements in list : 5
-Enter 1 element of list : 58
-Enter 2 element of list : 56
-Enter 3 element of list : 54
-Enter 4 element of list : 52
-Enter 5 element of list : 55
-Given list elements : [58, 56, 54, 52, 55]
-Enter the element to be searched (first occurrence) : 54
-Element 54 found at index 2
-Sorted list elements : [52, 54, 55, 56, 58]
-52 occurs 1 time(s)
-54 occurs 1 time(s)
-55 occurs 1 time(s)
-56 occurs 1 time(s)
-58 occurs 1 time(s)
+
+What do you want to do
+1. Insert
+2. Delete
+3. Display
+4. Exit
+1
+Enter new list elements : 58 56 52 54
+
+What do you want to do
+1. Insert
+2. Delete
+3. Display
+4. Exit
+1
+Enter new list elements : 55
+
+What do you want to do
+1. Insert
+2. Delete
+3. Display
+4. Exit
+3
+List elements are : 
+58(0) 56(1) 52(2) 54(3) 55(4)
+
+What do you want to do
+1. Insert
+2. Delete
+3. Display
+4. Exit
+2
+List elements are :
+58(0) 56(1) 52(2) 54(3) 55(4)
+Enter element index to delete : 2
+
+What do you want to do
+1. Insert
+2. Delete
+3. Display
+4. Exit
+4
+List elements are :
+58(0) 56(1) 54(2) 55(3)
+Bye see you soon !
 ```
 ---
 ## TestCase 2:-
 ```
-Enter number of elements in list : 10
-Enter 1 element of list : 57
-Enter 2 element of list : 58
-Enter 3 element of list : 59
-Enter 4 element of list : 56
-Enter 5 element of list : 53
-Enter 6 element of list : 52
-Enter 7 element of list : 51
-Enter 8 element of list : 54
-Enter 9 element of list : 55
-Enter 10 element of list : 55
-Given list elements : [57, 58, 59, 56, 53, 52, 51, 54, 55, 55]
-Enter the element to be searched (first occurrence) : 55
-Element 55 found at index 8
-Sorted list elements : [51, 52, 53, 54, 55, 55, 56, 57, 58, 59]
-51 occurs 1 time(s)
-52 occurs 1 time(s)
-53 occurs 1 time(s)
-54 occurs 1 time(s)
-55 occurs 2 time(s)
-56 occurs 1 time(s)
-57 occurs 1 time(s)
-58 occurs 1 time(s)
-59 occurs 1 time(s)
+
+What do you want to do
+1. Insert
+2. Delete
+3. Display
+4. Exit
+2
+Please insert elements to perform delete operation
+
+What do you want to do
+1. Insert
+2. Delete
+3. Display
+4. Exit
+3
+Nothing to display list is empty!
+
+What do you want to do
+1. Insert
+2. Delete
+3. Display
+4. Exit
+1
+Enter new list elements : 50
+
+What do you want to do
+1. Insert
+2. Delete
+3. Display
+4. Exit
+4
+List elements are : 
+50(0) 
+Bye see you soon !
 ```
 ---
