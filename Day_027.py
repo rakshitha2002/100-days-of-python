@@ -3,7 +3,8 @@ from itertools import combinations
 n = input("Enter list elements : ").split()
 sub = [int(i) for i in n]
 negative = [ int(i) for i in n if int(i) < 0]
-if len(negative)== 0:
+positive = [ int(i) for i in n if int(i) > 0]
+if len(negative)== 0 or len(positive)== 0:
     print("No Zero Sublist found :-(")
 else:
   print("Zero Sublist found :-)")
