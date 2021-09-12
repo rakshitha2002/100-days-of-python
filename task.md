@@ -1,48 +1,61 @@
-# Day27 - Zero Sum Subarray/Sublist
+# Day28 - Max one's in sublist
 
-- Get the list as the input
-- Which contain +ve and -ve integer
-- Find all sublist which sum is 0
-> Note : Please import combinations from itertools for easy approach
+- Get the list as the input which contain one's and zero's.  
+- Find maximum set of one's in list.  
+- Please find test case below.  
+---
+## Explanation :-
+```
+input : 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+
+Sublist's of one's :
+    1 1 1 1 -> 4
+    1 -> 1
+    1 -> 1
+    1 1 -> 2
+Max one's in sublist : 4
+```
 ---
 ## TestCase 1:-
 ---
 ### Input :-
 ```
-Enter list elements : 9 -3 -3 -1 1 2 2 -4
+Enter list elements : 0 0 1 1 1 1 0 1 0 1 0 1 1 0
 ```
 ### Output :-
 ```
-Zero Sublist found :-)
-[-1, 1]
-[-3, 1, 2]
-[-4, 2, 2]
-[-3, -1, 2, 2]
-[-4, -3, -3, 1, 9]
-[-4, -1, 1, 2, 2]
-[-4, -3, -3, -1, 2, 9]
+Max one's in sublist : 4
 ```
 ---
 ## TestCase 2:-
 ---
 ### Input :-
 ```
-Enter list elements : 5 -5 -1 1
+Enter list elements : 0 0 0 1 1 1 1 1 1 0 0 0 1 0 1 0 1 0 1
 ```
 ### Output :-
 ```
-Zero Sublist found :-)
-[-5, 5]
-[-1, 1]
+Max one's in sublist : 6
 ```
 ---
 ## TestCase 3:-
 ---
 ### Input :-
 ```
-Enter list elements : 5 5 7 6 2
+Enter list elements : 0 0 0 0 0
 ```
 ### Output :-
 ```
-No Zero Sublist found :-(
+Max one's in sublist : 0
+```
+---
+## TestCase 4:-
+---
+### Input :-
+```
+Enter list elements : 1 1 1 1 1
+```
+### Output :-
+```
+Max one's in sublist : 5
 ```
