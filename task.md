@@ -1,61 +1,54 @@
-# Day28 - Max one's in sublist
+# Day29 - String Processing-I
 
-- Get the list as the input which contain one's and zero's.  
-- Find maximum set of one's in list.  
-- Please find test case below.  
+- Get a string as input.  
+- Find whether given string contains consecutive letters and each letter occurs exactly once.  
+- Get the sequence of alphabets through console.  
+- Be specific with the output format, refer all the Sample Inputs and Sample Outputs for more clarity.  
 ---
 ## Explanation :-
 ```
-input : 0 0 1 1 1 1 0 1 0 1 0 1 1 0
-
-Sublist's of one's :
-    1 1 1 1 -> 4
-    1 -> 1
-    1 -> 1
-    1 1 -> 2
-Max one's in sublist : 4
+input string : dcab
+dcab -> abcd -> This word is consecutive letter.  
+input string : xyba
+xyba -> abxy  -> This word is not consecutive letter.
 ```
 ---
 ## TestCase 1:-
 ---
 ### Input :-
 ```
-Enter list elements : 0 0 1 1 1 1 0 1 0 1 0 1 1 0
+Enter string : dcab
 ```
 ### Output :-
 ```
-Max one's in sublist : 4
+The string 'a','b','c','d' which are consecutive letters
+All the letters occurs exactly once
 ```
 ---
 ## TestCase 2:-
 ---
 ### Input :-
 ```
-Enter list elements : 0 0 0 1 1 1 1 1 1 0 0 0 1 0 1 0 1 0 1
+Enter string : xyba
 ```
 ### Output :-
 ```
-Max one's in sublist : 6
+The string 'x','y','b','a' which are not consecutive letters
+All the letters occurs exactly once
 ```
 ---
 ## TestCase 3:-
 ---
 ### Input :-
 ```
-Enter list elements : 0 0 0 0 0
+Enter string : pppqrstppppqrst
 ```
 ### Output :-
 ```
-Max one's in sublist : 0
-```
----
-## TestCase 4:-
----
-### Input :-
-```
-Enter list elements : 1 1 1 1 1
-```
-### Output :-
-```
-Max one's in sublist : 5
+The string 'p','p','p','q','r','s','t','p','p','p','p','q','r','s','t' which are not consecutive letters
+letter 'p' occurs 7 time(s)
+letter 'q' occurs 2 time(s)
+letter 'r' occurs 2 time(s)
+letter 's' occurs 2 time(s)
+letter 't' occurs 2 time(s)
 ```
