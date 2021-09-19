@@ -21,7 +21,7 @@ Enter string : dcab
 ```
 ### Output :-
 ```
-The string 'a','b','c','d' which are consecutive letters
+The string 'a', 'b', 'c', 'd' which are consecutive letters
 All the letters occurs exactly once
 ```
 ---
@@ -33,7 +33,7 @@ Enter string : xyba
 ```
 ### Output :-
 ```
-The string 'x','y','b','a' which are not consecutive letters
+The string 'a', 'b', 'x', 'y' which are not consecutive letters
 All the letters occurs exactly once
 ```
 ---
@@ -45,7 +45,7 @@ Enter string : pppqrstppppqrst
 ```
 ### Output :-
 ```
-The string 'p','p','p','q','r','s','t','p','p','p','p','q','r','s','t' which are not consecutive letters
+The string 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'q', 'q', 'r', 'r', 's', 's', 't', 't' which are not consecutive letters
 letter 'p' occurs 7 time(s)
 letter 'q' occurs 2 time(s)
 letter 'r' occurs 2 time(s)
