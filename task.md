@@ -1,9 +1,8 @@
-# Day29 - String Processing-I
+# Day30 - String Processing-II
 
 - Get a string as input.  
-- Find whether given string contains consecutive letters and each letter occurs exactly once.  
-- Get the sequence of alphabets through console.  
-- Be specific with the output format, refer all the Sample Inputs and Sample Outputs for more clarity.  
+- Find the ASCII values summation of vowels in the given string.  
+- Make sure your logic should work for both uppercase and lowercase.  
 ---
 ## Explanation :-
 ```
@@ -17,38 +16,34 @@ xyba -> abxy  -> This word is not consecutive letter.
 ---
 ### Input :-
 ```
-Enter string : dcab
+Enter string : rose
 ```
 ### Output :-
 ```
-The string 'a', 'b', 'c', 'd' which are consecutive letters
-All the letters occurs exactly once
+The vowel(s) is(are) 'o', 'e'
+ASCII summation is 212
+
 ```
 ---
 ## TestCase 2:-
 ---
 ### Input :-
 ```
-Enter string : xyba
+Enter string : crypt
 ```
 ### Output :-
 ```
-The string 'a', 'b', 'x', 'y' which are not consecutive letters
-All the letters occurs exactly once
+Given word don't have any vowel, hence ASCII summation is 0
 ```
 ---
 ## TestCase 3:-
 ---
 ### Input :-
 ```
-Enter string : pppqrstppppqrst
+Enter string : BLUETOOTH
 ```
 ### Output :-
 ```
-The string 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'q', 'q', 'r', 'r', 's', 's', 't', 't' which are not consecutive letters
-letter 'p' occurs 7 time(s)
-letter 'q' occurs 2 time(s)
-letter 'r' occurs 2 time(s)
-letter 's' occurs 2 time(s)
-letter 't' occurs 2 time(s)
+The vowel(s) is(are) 'U', 'E', 'O', 'O'
+ASCII summation is 312
 ```
