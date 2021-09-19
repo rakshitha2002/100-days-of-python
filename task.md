@@ -3,7 +3,6 @@
 - Get a string as input.  
 - Find the ASCII values summation of vowels in the given string.  
 - Make sure your logic should work for both uppercase and lowercase.  
-
 ---
 ## TestCase 1:-
 ---
