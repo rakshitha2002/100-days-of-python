@@ -1,31 +1,33 @@
-# Day30 - String Processing-II
+# Day31 - String Processing-III
 
 - Get a string as input.  
-- Find the ASCII values summation of vowels in the given string.  
-- Make sure your logic should work for both uppercase and lowercase.  
+- Get a character as input.  
+- Find all index of character presence in string and print it.
+> Note: Given input are case sensitive.
+
 ---
 ## TestCase 1:-
 ---
 ### Input :-
 ```
-Enter string : rose
+Enter string : google
+Enter character : g
 ```
 ### Output :-
 ```
-The vowel(s) is(are) 'o', 'e'
-ASCII summation is 212
-
+The character 'g' founded at 0, 3 index(es) 
 ```
 ---
 ## TestCase 2:-
 ---
 ### Input :-
 ```
-Enter string : crypt
+Enter string : rose
+Enter character : s
 ```
 ### Output :-
 ```
-Given word don't have any vowel, hence ASCII summation is 0
+The character 's' founded at 2 index(es)    
 ```
 ---
 ## TestCase 3:-
@@ -33,9 +35,21 @@ Given word don't have any vowel, hence ASCII summation is 0
 ### Input :-
 ```
 Enter string : BLUETOOTH
+Enter character : T
 ```
 ### Output :-
 ```
-The vowel(s) is(are) 'U', 'E', 'O', 'O'
-ASCII summation is 312
+The character 'T' founded at 4, 7 index(es)
+```
+---
+## TestCase 4:-
+---
+### Input :-
+```
+Enter string : Nothing
+Enter character : R
+```
+### Output :-
+```
+the character 'R' not founded
 ```
