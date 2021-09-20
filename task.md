@@ -51,5 +51,5 @@ Enter character : R
 ```
 ### Output :-
 ```
-The character 'R' not founded
+The character 'R' not found
 ```
