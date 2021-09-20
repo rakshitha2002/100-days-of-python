@@ -3,7 +3,10 @@
 - Get a string as input.  
 - Get a character as input.  
 - Find all index of character presence in string and print it.
-> Note: Given input are case sensitive.
+
+> Note 1 : Given input are case sensitive.
+
+> Note 2 : Do have comments for better understanding.  
 
 ---
 ## TestCase 1:-
