@@ -1,58 +1,42 @@
-# Day31 - String Processing-III
+# Day32 - String Processing-IV
 
 - Get a string as input.  
-- Get a character as input.  
-- Find all index of character presence in string and print it.
+- Remove extra spaces from the string.
+- Remove special charaters from the string.
+- Print the final result.
 
-> Note 1 : Given input are case sensitive.
-
-> Note 2 : Do have comments for better understanding.  
+> Note : Do have comments for better understanding.  
 
 ---
 ## TestCase 1:-
 ---
 ### Input :-
 ```
-Enter string : google
-Enter character : g
+Enter string : Hi                    I'm Rakshitha
 ```
 ### Output :-
 ```
-The character 'g' founded at 0, 3 index(es) 
+Final result : Hi Im Rakshitha
 ```
 ---
 ## TestCase 2:-
 ---
 ### Input :-
 ```
-Enter string : rose
-Enter character : s
+Enter string : I @#$%^&*like() kulfi 
 ```
 ### Output :-
 ```
-The character 's' founded at 2 index(es)    
+Final result : I like kulfi
 ```
 ---
 ## TestCase 3:-
 ---
 ### Input :-
 ```
-Enter string : BLUETOOTH
-Enter character : T
+Enter string : Hi  I  am  ten, My   name    is    10
 ```
 ### Output :-
 ```
-The character 'T' founded at 4, 7 index(es)
-```
----
-## TestCase 4:-
----
-### Input :-
-```
-Enter string : Nothing
-Enter character : R
-```
-### Output :-
-```
-The character 'R' not found
+Final result : Hi I am ten My name is 10
 ```
