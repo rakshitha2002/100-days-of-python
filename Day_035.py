@@ -1,0 +1,3 @@
+def isSentencePalindrome(sentence):
+    # Start coding after this line....
+    return ""
