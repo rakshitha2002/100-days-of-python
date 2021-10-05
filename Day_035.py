@@ -1,3 +1,3 @@
-def isSentencePalindrome(sentence):
+def removeRecursiveAdjacentDuplicates(string):
     # Start coding after this line....
     return ""
