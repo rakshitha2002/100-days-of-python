@@ -3,7 +3,7 @@
 - Use sentence parameter as input.  
 - Remove spaces from the string.
 - Remove special charaters from the string.
-- Check given sentence is palindroem
+- Check given sentence is palindrome.
 - Return result as per the testcases.
 
 > Note 1 : To perform test cases please run ``` python test.py ``` or directly open test.py and run. 
